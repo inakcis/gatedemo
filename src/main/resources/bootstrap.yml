@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demo-gate                   
+logging: 
+  level: 
+    org.springframework.cloud.gateway: ERROR
+    org.springframework.http.server.reactive: ERROR
+    org.springframework.web.reactive: ERROR
+    reactor.ipc.netty: ERROR
+    reactor.netty: ERROR
